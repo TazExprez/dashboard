@@ -15,7 +15,8 @@ const injectCss = () => {
 const watch = () => {
   browserSync.init({
     server: {
-      baseDir: "./public"
+      baseDir: "./public" //,
+      // notify: false
     }
   });
 
