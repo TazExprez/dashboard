@@ -11,16 +11,34 @@
     <title>Document</title>
   </head>
   <body>
+    <section id="top-menu">
+      <div class="logo">GoJobs</div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </section>
     <section id="side-menu">
+      <div class="logo">GoJobs</div>
+      <!-- <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div> -->
       <nav>
-        <a href="#" class="active"><i class="fas fa-home"></i> Item</a>
-        <a href="#"><i class="far fa-sticky-note"></i> Item</a>
-        <a href="#"><i class="far fa-bookmark"></i> Item</a>
-        <a href="#"><i class="far fa-calendar-check"></i> Item</a>
-        <a href="#"><i class="far fa-user-circle"></i> Item</a>
-        <a href="#"><i class="fas fa-cog"></i> Item</a>
+        <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="#"><i class="far fa-sticky-note"></i> Applied History</a>
+        <a href="#"><i class="far fa-bookmark"></i> Jobs Bookmarks</a>
+        <a href="#"><i class="far fa-calendar-check"></i> Interview Schedule</a>
+        <a href="#"><i class="far fa-user-circle"></i> Profile</a>
+        <a href="#"><i class="fas fa-cog"></i> Settings</a>
       </nav>
     </section>
+    <!-- <div class="mobile-menu">
+      <a href="#"><i class="fas fa-home"></i> Home</a>
+      <a href="#"><i class="far fa-sticky-note"></i> Applied History</a>
+      <a href="#"><i class="far fa-bookmark"></i> Jobs Bookmarks</a>
+      <a href="#"><i class="far fa-calendar-check"></i> Interview Schedule</a>
+      <a href="#"><i class="far fa-user-circle"></i> Profile</a>
+      <a href="#"><i class="fas fa-cog"></i> Settings</a>
+    </div> -->
     <header>
       <div class="search-area">
         <i class="fas fa-search"></i>
@@ -42,44 +60,75 @@
     <section id="content-area">
       <div class="heading">
         <h1>Dashboard</h1>
-        <p>Welcome to Gojobs</p>
+        <p>Welcome to the GoJobs Job Seeker Dashboard</p>
       </div>
       <div class="cards">
-        <!-- <div class="container"> -->
-        <div class="col-sm-8 col-md-4 col-lg-6 col-xl-2">
+        <div class="user-info col-sm-12 col-md-6 col-lg-4">
           <div class="card">
             <div class="user-img"></div>
             <span class="user-name">John Levis</span>
             <span class="user-title">Full-Stack Developer</span>
             <hr />
-            <div class="col-md-3">
-              <span class="education">Education</span>
+            <div class="education col-sm-3 col-md-3 col-lg-3">
+              Education
             </div>
-            <div class="col-md-9">
-              <span class="schools">Grover Cleveland HS</span>
-              <span class="schools">New York University</span>
+            <div class="schools col-sm-9 col-md-9 col-lg-9">
+              <div class="school-1">
+                Grover Cleveland High School, High School Diploma
+              </div>
+              <div class="school-2">
+                New York University, Computer Science, Bachelor of Arts
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-6 col-xl-2">
+        <div class="interview-info col-sm-12 col-md-6 col-lg-4">
           <div class="card">
             <h6>Interview Schedule</h6>
             <span class="date">
               Jul 7, 2018
             </span>
-            <div class="col-md-2">
-              <span class="job-type">IT</span>
+            <div class="job-type col-sm-2 col-md-2 col-lg-2">
+              IT
             </div>
-            <div class="col-md-10">
-              <span class="location">Best Buy HQ</span>
-              <span class="position">Senior Developer</span>
-              <span class="time">09:30 am</span>
+            <div class="job-details col-sm-10 col-md-10 col-lg-10">
+              <div class="location">Best Buy HQ</div>
+              <div class="position">Senior Developer</div>
+              <div class="time">09:30 am</div>
             </div>
           </div>
         </div>
-        <!-- </div> -->
+        <div class="hire-info col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h6>Applying Status</h6>
+            <div class="apply-status-img"></div>
+            <div class="hire-status">
+              <div class="hired col-sm-4 col-md-4 col-lg-4">
+                <div class="hired-circle"></div>
+                <div class="hire-status-text">
+                  2 of 13 <br />
+                  Hired
+                </div>
+              </div>
+              <div class="interviewed col-sm-4 col-md-4 col-lg-4">
+                <div class="hired-circle"></div>
+                <div class="hire-status-text">
+                  4 of 13 <br />
+                  Interviewed
+                </div>
+              </div>
+              <div class="rejected col-sm-4 col-md-4 col-lg-4">
+                <div class="hired-circle"></div>
+                <div class="hire-status-text">
+                  5 of 13 <br />
+                  Rejected
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <table>
+      <table class="horizontal-table">
         <thead>
           <tr>
             <th>
@@ -104,6 +153,24 @@
             <td>New York, NY</td>
           </tr>
         </tbody>
+      </table>
+      <table class="vertical-table">
+        <tr class="odd-row">
+          <th>COMPANY</th>
+          <td>Online Shopping</td>
+        </tr>
+        <tr class="even-row">
+          <th>Jobs</th>
+          <td>Java Developer</td>
+        </tr>
+        <tr class="odd-row">
+          <th>END OF APPLICATION</th>
+          <td>July 28, 2018</td>
+        </tr>
+        <tr class="even-row">
+          <th>LOCATION</th>
+          <td>New York, NY</td>
+        </tr>
       </table>
     </section>
     <script src="/js/app.js"></script>
