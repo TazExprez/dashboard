@@ -2,6 +2,7 @@
 @import "reset";
 @import "variables";
 @import "grid";
+@import "mobile";
 @import "content-area";
 
 * {
@@ -72,30 +73,14 @@ body {
       }
     }
   }
-
-  .menu-btn {
-    display: none;
-    // position: relative;
-    font-size: 2rem;
-    color: green;
-    // z-index: 10;
-  }
-}
-
-.mobile-menu {
-  display: block;
-  z-index: 100;
-  color: white;
 }
 
 header {
-  margin-left: 280px;
   padding: 10px;
   background: #fff;
 
   .search-area {
     display: inline-block;
-    width: 50%;
 
     .fas {
       color: $greyDarkBG;
@@ -118,8 +103,8 @@ header {
   }
 
   .user-area {
-    display: inline-block;
-    float: right;
+    // display: inline-block;
+    // float: right;
     padding: 10px;
 
     a {

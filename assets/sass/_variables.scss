@@ -11,6 +11,7 @@ $purple: #744bce;
 
 // Grid System
 $grid-columns: 12;
-$breakpoint-small: "only screen and (min-width: 0px)";
+$breakpoint-extra-small: "only screen and (min-width: 0px)";
+$breakpoint-small: "only screen and (min-width: 500px)";
 $breakpoint-medium: "only screen and (min-width: 1024px)";
 $breakpoint-large: "only screen and (min-width: 1340px)";

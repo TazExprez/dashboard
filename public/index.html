@@ -11,17 +11,37 @@
     <title>Document</title>
   </head>
   <body>
-    <section id="top-menu">
-      <div class="logo">GoJobs</div>
+    <section id="mobile-top-menu">
+      <a href="index.html" class="mobile-logo">GoJobs</a>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
       </div>
     </section>
+    <section id="mobile-side-menu">
+      <nav>
+        <a href="#" class="active page-link"
+          ><i class="fas fa-home"></i> Home</a
+        >
+        <a href="#" class="mobile-page-link"
+          ><i class="far fa-sticky-note"></i> Applied History</a
+        >
+        <a href="#" class="mobile-page-link"
+          ><i class="far fa-bookmark"></i> Jobs Bookmarks</a
+        >
+        <a href="#" class="mobile-page-link"
+          ><i class="far fa-calendar-check"></i> Interview Schedule</a
+        >
+        <a href="#" class="mobile-page-link"
+          ><i class="far fa-user-circle"></i> Profile</a
+        >
+        <a href="#" class="mobile-page-link"
+          ><i class="fas fa-cog"></i> Settings</a
+        >
+      </nav>
+    </section>
+    <div class="mobile-opacity-layer"></div>
     <section id="side-menu">
       <div class="logo">GoJobs</div>
-      <!-- <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div> -->
       <nav>
         <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
         <a href="#"><i class="far fa-sticky-note"></i> Applied History</a>
@@ -31,14 +51,6 @@
         <a href="#"><i class="fas fa-cog"></i> Settings</a>
       </nav>
     </section>
-    <!-- <div class="mobile-menu">
-      <a href="#"><i class="fas fa-home"></i> Home</a>
-      <a href="#"><i class="far fa-sticky-note"></i> Applied History</a>
-      <a href="#"><i class="far fa-bookmark"></i> Jobs Bookmarks</a>
-      <a href="#"><i class="far fa-calendar-check"></i> Interview Schedule</a>
-      <a href="#"><i class="far fa-user-circle"></i> Profile</a>
-      <a href="#"><i class="fas fa-cog"></i> Settings</a>
-    </div> -->
     <header>
       <div class="search-area">
         <i class="fas fa-search"></i>
@@ -63,16 +75,16 @@
         <p>Welcome to the GoJobs Job Seeker Dashboard</p>
       </div>
       <div class="cards">
-        <div class="user-info col-sm-12 col-md-6 col-lg-4">
+        <div class="user-info col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <div class="card">
             <div class="user-img"></div>
             <span class="user-name">John Levis</span>
             <span class="user-title">Full-Stack Developer</span>
             <hr />
-            <div class="education col-sm-3 col-md-3 col-lg-3">
+            <div class="education col-xs-3 col-sm-3 col-md-3 col-lg-3">
               Education
             </div>
-            <div class="schools col-sm-9 col-md-9 col-lg-9">
+            <div class="schools col-xs-9 col-sm-9 col-md-9 col-lg-9">
               <div class="school-1">
                 Grover Cleveland High School, High School Diploma
               </div>
@@ -82,42 +94,42 @@
             </div>
           </div>
         </div>
-        <div class="interview-info col-sm-12 col-md-6 col-lg-4">
+        <div class="interview-info col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <div class="card">
             <h6>Interview Schedule</h6>
             <span class="date">
               Jul 7, 2018
             </span>
-            <div class="job-type col-sm-2 col-md-2 col-lg-2">
+            <div class="job-type col-xs-2 col-sm-2 col-md-2 col-lg-2">
               IT
             </div>
-            <div class="job-details col-sm-10 col-md-10 col-lg-10">
+            <div class="job-details col-xs-2 col-sm-10 col-md-10 col-lg-10">
               <div class="location">Best Buy HQ</div>
               <div class="position">Senior Developer</div>
               <div class="time">09:30 am</div>
             </div>
           </div>
         </div>
-        <div class="hire-info col-sm-12 col-md-6 col-lg-4">
+        <div class="hire-info col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <div class="card">
             <h6>Applying Status</h6>
             <div class="apply-status-img"></div>
             <div class="hire-status">
-              <div class="hired col-sm-4 col-md-4 col-lg-4">
+              <div class="hired col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="hired-circle"></div>
                 <div class="hire-status-text">
                   2 of 13 <br />
                   Hired
                 </div>
               </div>
-              <div class="interviewed col-sm-4 col-md-4 col-lg-4">
+              <div class="interviewed col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="hired-circle"></div>
                 <div class="hire-status-text">
                   4 of 13 <br />
                   Interviewed
                 </div>
               </div>
-              <div class="rejected col-sm-4 col-md-4 col-lg-4">
+              <div class="rejected col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="hired-circle"></div>
                 <div class="hire-status-text">
                   5 of 13 <br />
@@ -128,7 +140,7 @@
           </div>
         </div>
       </div>
-      <table class="horizontal-table">
+      <table class="large-table">
         <thead>
           <tr>
             <th>
@@ -154,7 +166,7 @@
           </tr>
         </tbody>
       </table>
-      <table class="vertical-table">
+      <table class="mobile-table">
         <tr class="odd-row">
           <th>COMPANY</th>
           <td>Online Shopping</td>

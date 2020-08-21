@@ -1,0 +1,36 @@
+.mobile-table {
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-top: 10px;
+
+  .odd-row {
+    th {
+      text-align: left;
+      padding: 20px;
+      background: #eaedf3;
+    }
+
+    td {
+      padding: 20px;
+      background: #eaedf3;
+    }
+  }
+
+  .even-row {
+    th {
+      text-align: left;
+      padding: 20px;
+      background: #fff;
+      border-bottom: 2px solid #eaedf3;
+    }
+
+    td {
+      padding: 20px;
+      background: #fff;
+      border-bottom: 2px solid #eaedf3;
+    }
+  }
+}

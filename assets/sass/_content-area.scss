@@ -1,5 +1,5 @@
 #content-area {
-  margin-left: 280px;
+  // margin-left: 280px;
   padding: 15px;
 
   .heading {
@@ -150,7 +150,6 @@
 
         .hired {
           display: inline-block;
-          padding: 0;
 
           .hired-circle {
             display: inline-block;
@@ -168,8 +167,6 @@
 
         .interviewed {
           display: inline-block;
-          text-align: center;
-          padding: 0;
 
           .hired-circle {
             display: inline-block;
@@ -188,8 +185,6 @@
 
         .rejected {
           display: inline-block;
-          text-align: right;
-          padding: 0;
 
           .hired-circle {
             display: inline-block;
@@ -209,7 +204,7 @@
     }
   }
 
-  .horizontal-table {
+  .large-table {
     width: calc(100% - 30px);
     margin: 0 auto;
     border-collapse: collapse;
@@ -217,7 +212,7 @@
     border-radius: 4px;
 
     thead {
-      border-collapse: separate;
+      border-collapse: collapse;
       text-align: left;
       background: #eaedf3;
 
@@ -235,37 +230,6 @@
           padding: 20px;
           border-bottom: 2px solid #eaedf3;
         }
-      }
-    }
-  }
-
-  .vertical-table {
-    width: calc(100% - 30px);
-    margin: 0 auto;
-    border-collapse: collapse;
-    overflow: hidden;
-    border-radius: 4px;
-    margin-top: 10px;
-
-    .odd-row {
-      th {
-        background: #eaedf3;
-      }
-
-      td {
-        background: #eaedf3;
-      }
-    }
-
-    .even-row {
-      th {
-        background: #fff;
-        border-bottom: 2px solid #eaedf3;
-      }
-
-      td {
-        background: #fff;
-        border-bottom: 2px solid #eaedf3;
       }
     }
   }
