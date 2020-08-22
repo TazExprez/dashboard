@@ -13,12 +13,25 @@
     }
   }
 
+  #mobile-top-menu {
+    display: block;
+  }
+
   #side-menu {
     display: none;
   }
 
+  #mobile-side-menu {
+    display: block;
+  }
+
+  .mobile-opacity-layer {
+    display: block;
+  }
+
   header {
     margin-left: 0;
+    height: 115px;
 
     .search-area {
       width: 100%;
@@ -26,12 +39,14 @@
 
     .user-area {
       display: block;
-      float: left;
+      margin: 10px 0;
+      padding: 5px;
     }
   }
 
   #content-area {
     margin-left: 0;
+    padding: 10px 0;
   }
 
   .hired {
@@ -76,6 +91,9 @@
   }
 
   header {
+    margin-left: 240px;
+    height: 65px;
+
     .search-area {
       width: 50%;
     }
@@ -83,7 +101,31 @@
     .user-area {
       display: inline-block;
       float: right;
+      margin: 0;
+      padding: 10px;
     }
+  }
+
+  #content-area {
+    margin-left: 240px;
+    padding: 15px;
+  }
+
+  #mobile-top-menu {
+    display: none;
+  }
+
+  #mobile-side-menu {
+    display: none;
+  }
+
+  .mobile-opacity-layer {
+    display: none;
+  }
+
+  #side-menu {
+    display: block;
+    width: 240px;
   }
 
   .hired {
@@ -128,16 +170,8 @@
     margin-left: 280px;
   }
 
-  #mobile-top-menu {
-    display: none;
-  }
-
-  #mobile-side-menu {
-    display: none;
-  }
-
   #side-menu {
-    display: block;
+    width: 280px;
   }
 
   .card {
